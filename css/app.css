@@ -44,7 +44,7 @@
 /**!**************/
 /**!**************/
 /*
-*  Framework Components 
+*  Framework Components
 =================================
 =================================
 =================================*/
@@ -1859,7 +1859,7 @@ p {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background: url(../icons/oval-dotted.svg) no-repeat center;
+  background: url("icons/oval-dotted.svg") no-repeat center;
   width: 7.125rem;
   height: 7.125rem;
 }
@@ -2554,7 +2554,7 @@ p {
 }
 
 /*
-*  Theme Components 
+*  Theme Components
 =================================
 =================================
 =================================*/
@@ -3563,7 +3563,7 @@ p {
 }
 
 /*
-*  Themes 
+*  Themes
 =================================
 =================================
 =================================*/
