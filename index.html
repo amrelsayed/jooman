@@ -72,7 +72,10 @@
                                 <a class="nav-link" href="#features">Features</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#reviews">Reviews</a>
+                                <a class="nav-link" href="#howitworks">How It Works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#ourstrength">Our Strength</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#pricing">Pricing</a>
@@ -82,7 +85,7 @@
                     </nav>
                 </div>
                 <div class="flex-row ml-lg-auto d-md-flex mr-70 mr-lg-0 d-none d-sm-inline-block">
-                    <a href="#" class="btn btn--outline btn--sm btn-3d-hover btn-splash-hover">
+                    <a href="#requestdemo" class="btn btn--outline btn--sm btn-3d-hover btn-splash-hover">
                         <span class="btn__text">Request For Demo</span>
                     </a>
                 </div>
@@ -107,7 +110,7 @@
                                   that helps your website and content teams save time and create more value.
                                 </p>
                                 <div class="button-group align-items-center justify-content-center justify-content-lg-start">
-                                    <a href="#" class="btn btn--bg-primary btn-3d-hover btn-splash-hover">
+                                    <a href="#requestdemo" class="btn btn--bg-primary btn-3d-hover btn-splash-hover">
                                         <span class="btn__text">Get started</span>
                                     </a>
                                 </div>
@@ -276,7 +279,7 @@ Easily bring features including autocomplete, filters and facets, Snippet & High
         <!-- =========== End of Features ============ -->
 
         <!-- =========== Start of Process ============ -->
-        <section class="space-top bg-color-grey">
+        <section class="space-top bg-color-grey" id="howitworks">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-9 mx-auto">
@@ -335,7 +338,7 @@ Easily bring features including autocomplete, filters and facets, Snippet & High
         <!-- =========== End of Process ============ -->
 
         <!-- =========== Start of Features ============ -->
-        <section class="space-top space-bottom" id="features">
+        <section class="space-top space-bottom" id="ourstrength">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-9 mx-auto">
@@ -432,7 +435,7 @@ Easily bring features including autocomplete, filters and facets, Snippet & High
         <!-- =========== End of Features ============ -->
 
         <!-- =========== Start of Testimonial ============ -->
-        <section class="bg-color-primary space position-relative" id="reviews">
+        <section class="bg-color-primary space position-relative">
             <div class="background-holder background-holder--top">
                 <img src="img/testimonial-bg.svg" alt="pattern" class="background-image-holder">
             </div>
@@ -554,18 +557,49 @@ Easily bring features including autocomplete, filters and facets, Snippet & High
         <!-- =========== End of Pricing ============ -->
 
         <!-- =========== Start of CTA ============ -->
-        <section class="bg-color-primary space">
+        <section class="bg-color-primary space" id="requestdemo">
             <div class="background-holder background-holder--contain">
                 <img src="img/cta-bg.png" alt="pattern" class="background-image-holder">
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-6 text-center mx-auto reveal">
-                        <h3 class="mb-20">Try xPider for 14 days, for free!</h3>
-                        <p class="lead mb-50">Millions of people around the world have already made xPider the place where their dream happens.</p>
-                        <a href="#" class="btn btn--bg-white btn--color-primary btn-3d-hover btn-splash-hover">
-                            <span class="btn__text">Get started</span>
-                        </a>
+                    <div class="col-12 text-center mx-auto reveal">
+                        <h3 class="mb-20">Start Your Free Trial</h3>
+                        <p class="mb-3">Fill the form below and Lableb team will get in touch with you shorty after with details about your account.</p>
+
+                        <form class="form form--sm">
+                            <div class="form-row mb-20">
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control" id="first_name" name="first_name" placeholder="First Name" required>
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last Name" required>
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control" id="company" name="company" placeholder="Company Name">
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Company Email">
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone Nmber">
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control" id="website" name="website" placeholder="Website">
+                                </div>
+                            </div>
+                            <div class="form-row mb-20">
+                                <div class="form-group col-sm-12">
+                                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="Want to share any additional information?" required></textarea>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-sm-12 text-center">
+                                    <button type="submit" class="btn btn--bg-success btn-splash-hover btn-3d-hover"><span
+                                            class="btn__text">Submit</span></button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                     <!-- end of col -->
                 </div>
@@ -621,16 +655,16 @@ Easily bring features including autocomplete, filters and facets, Snippet & High
                         <div class="col-12 d-md-flex justify-content-between align-items-center">
                             <nav class="nav">
                                 <ul class="d-flex mb-md-0">
-                                    <li>Made with love in Egypt</li>
+                                    <li>Made with <i class="fa fa-heart text-danger"></i> in Egypt</li>
                                 </ul>
                             </nav>
                             <!-- end of mini footer nav -->
                             <div class="d-flex justify-content-between ml-auto">
                                 <!-- end of language selector -->
                                 <ul class="social-lists d-flex mb-0">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
                                 </ul>
                                 <!-- end of social list -->
                             </div>
