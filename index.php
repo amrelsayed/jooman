@@ -1,4 +1,14 @@
 <?php
+    use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\Exception;
+
+    // Load Composer's autoloader
+    require 'vendor/autoload.php';
+
+    // Instantiation and passing `true` enables exceptions
+    $mail = new PHPMailer(true);
+    
+
     // Check if User Coming From A Request
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
@@ -22,20 +32,36 @@
             $formErrors[] = 'You entered a very long text in some fileds';
         }
 
-        // If No Errors Send The Email [ mail(To, Subject, Message, Headers, Parameters) ]
-        $headers = 'From: ' . $email . '\r\n';
-        $myEmail = 'amr-elsayed@outlook.com';
-        $subject = 'Jomaan Request Demo Form';
-        $body = 'First Name: ' . $first_name . '\r\n' .
-                'Last Name: ' . $last_name . '\r\n' .
-                'Company: ' . $company . '\r\n' .
-                'Email: ' . $email . '\r\n' .
-                'Phone: ' . $phone . '\r\n' .
-                'Website: ' . $website . '\r\n' .
+        $body = 'First Name: ' . $first_name . '<br>' .
+                'Last Name: ' . $last_name . '<br>' .
+                'Company: ' . $company . '<br>' .
+                'Email: ' . $email . '<br>' .
+                'Phone: ' . $phone . '<br>' .
+                'Website: ' . $website . '<br>' .
                 'Message: ' . $message;
 
         if (empty($formErrors)) {
-            mail($myEmail, $subject, $body, $headers);
+                $mail->SMTPDebug = 2;                                       // Enable verbose debug output
+                $mail->isSMTP();                                            // Set mailer to use SMTP
+                $mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+                $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
+                $mail->Username   = 'jomaanjomaan8';                     // SMTP username
+                $mail->Password   = 'jomaan123';                               // SMTP password
+                $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
+                $mail->Port       = 465;                                    // TCP port to connect to
+
+                //Recipients
+                $mail->setFrom($email, 'Mailer');
+                $mail->addAddress('amr-elsayed@outlook.com', 'Amr Elsayed');     // Add a recipient
+                $mail->addAddress('ellen@example.com');               // Name is optional
+                $mail->addReplyTo('blabla@test.com', 'reply to');
+
+                // Content
+                $mail->isHTML(true);                                  // Set email format to HTML
+                $mail->Subject = 'Jomaan Request Demo Form';
+                $mail->Body    = $body;
+
+                $mail->send();
 
             $first_name = $last_name = $company = $email  = $phone  = $website  = $message = '';
 
