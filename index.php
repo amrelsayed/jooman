@@ -52,6 +52,7 @@
                 //Recipients
                 $mail->setFrom($email, 'Jomaan Website');
                 $mail->addAddress('mhmd.rqiim@gmail.com');     // Add a recipient
+                $mail->addAddress('info@jomaan.com');     // Add a recipient
 
                 // Content
                 $mail->isHTML(true);                                  // Set email format to HTML
