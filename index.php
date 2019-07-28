@@ -1,13 +1,12 @@
 <?php
     use PHPMailer\PHPMailer\PHPMailer;
-    use PHPMailer\PHPMailer\Exception;
 
     // Load Composer's autoloader
     require 'vendor/autoload.php';
 
     // Instantiation and passing `true` enables exceptions
     $mail = new PHPMailer(true);
-    
+
 
     // Check if User Coming From A Request
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -45,10 +44,10 @@
                 $mail->isSMTP();                                            // Set mailer to use SMTP
                 $mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
                 $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-                $mail->Username   = 'jomaanjomaan8';                     // SMTP username
+                $mail->Username   = 'jomaanjomaan8@gmail.com';                     // SMTP username
                 $mail->Password   = 'jomaan123';                               // SMTP password
                 $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
-                $mail->Port       = 465;                                    // TCP port to connect to
+                $mail->Port       = 587;                                    // TCP port to connect to
 
                 //Recipients
                 $mail->setFrom($email, 'Mailer');
