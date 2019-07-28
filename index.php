@@ -51,7 +51,7 @@
 
                 //Recipients
                 $mail->setFrom($email, 'Jomaan Website');
-                $mail->addAddress('amr-elsayed@outlook.com');     // Add a recipient
+                $mail->addAddress('mhmd.rqiim@gmail.com');     // Add a recipient
 
                 // Content
                 $mail->isHTML(true);                                  // Set email format to HTML
@@ -661,7 +661,7 @@ Easily bring features including autocomplete, filters and facets, Snippet & High
                             </div>
                             <div class="form-row mb-20">
                                 <div class="form-group col-sm-12">
-                                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="Want to share any additional information?" required></textarea>
+                                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="Want to share any additional information?"></textarea>
                                 </div>
                             </div>
                             <div class="form-row">
