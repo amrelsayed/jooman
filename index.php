@@ -6,7 +6,7 @@
 
     // Instantiation and passing `true` enables exceptions
     $mail = new PHPMailer(true);
-
+    $mail->CharSet = 'UTF-8';
 
     // Check if User Coming From A Request
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
