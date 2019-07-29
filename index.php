@@ -435,11 +435,11 @@ Easily bring features including autocomplete, filters and facets, Snippet & High
 
                 <div class="row">
                   <div class="col-2"></div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-xs-8 raquiim">
                         <a href="https://www.rqiim.com" target="_blank"><img style="max-height: 133px;" src="img/raqiim.png" alt="testimonial"></a>
                     </div>
                     <!-- end of col -->
-                    <div class="col-4">
+                    <div class="col-md-4 col-xs-8">
                           <a href="https://www.3oqool.com/" target="_blank"><img src="img/3oqool.png" alt="testimonial"></a>
                     </div>
                     <!-- end of col -->

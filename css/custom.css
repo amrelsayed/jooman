@@ -49,3 +49,11 @@ h6 {
   .tab-content p {
     font-size: 1.3rem;
   }
+
+
+@media(max-width: 900px) {
+  .raquiim {
+    margin-bottom: 12px;
+    text-align: center;
+  }
+}
