@@ -94,7 +94,6 @@
 </head>
 
 <body class="" data-spy="scroll" data-target="#navbar-nav">
-
     <!-- =========== Preloader Start ============ -->
     <div class="preloader-main">
         <div class="preloader-wapper">
@@ -123,8 +122,8 @@
         <header class="navbar navbar-sticky navbar-expand-lg navbar-light">
             <div class="container position-relative">
                 <a class="navbar-brand mr-70" href="index.html">
-                    <img class="navbar-brand__regular" src="img/logo.jpg" alt="brand-logo">
-                    <img class="navbar-brand__sticky" src="img/logo.jpg" alt="sticky brand-logo">
+                    <img class="navbar-brand__regular" src="img/logo.png" alt="brand-logo">
+                    <img class="navbar-brand__sticky" src="img/logo.png" alt="sticky brand-logo">
                 </a>
                 <!--  End of brand logo -->
                 <button class="navbar-toggler d-lg-none" type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
@@ -254,101 +253,110 @@
         </section>
         <!-- =========== End of Content Block ============ -->
 
-        <!-- =========== Start of Features ============ -->
-        <section class="space-bottom" id="features">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-9 mx-auto">
-                        <div class="section-title reveal text-center mb-80 mb-sm-50">
-                            <h3 class="mb-3">Features</h3>
-                        </div>
-                        <!-- end of section title -->
-                    </div>
-                    <!-- end of col -->
+<!-- =========== Start of Features ============ -->
+<section class="space-top" id="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-10 col-lg-7 col-xl-6 mx-auto">
+                <div class="section-title reveal text-center mb-80">
+                    <h3 class="font-w-400">Features</h3>
                 </div>
-                <!-- end of row -->
-                <div class="row">
-                    <div class="col-12">
-                        <div class="features features--slider reveal">
-                            <div class="sub-header">
-                                <div class="swipe-tabs">
-                                    <div class="swipe-tab text-left">
-                                        <div class="swipe-tab__inner d-inline-flex flex-column align-items-center text-center">
-                                            <span class="tab__icon">
-                                                <img src="img/icon-drag.png" alt="icon">
-                                            </span>
-                                            <span class="tab__title font-size-21 font-weight-bold">Personal Approach</span>
-                                        </div>
-                                    </div>
-                                    <!-- end of tab one -->
-                                    <div class="swipe-tab text-center">
-                                        <div class="swipe-tab__inner d-inline-flex flex-column align-items-center text-center">
-                                            <span class="tab__icon d-flex flex-column">
-                                                <img src="img/icon-settings.png" alt="icon">
-                                            </span>
-                                            <span class="tab__title font-size-21 font-weight-bold">Create reach experience</span>
-                                        </div>
-                                    </div>
-                                    <!-- end of two one -->
-
-                                    <div class="swipe-tab text-right">
-                                        <div class="swipe-tab__inner d-inline-flex flex-column align-items-center text-center">
-                                            <span class="tab__icon">
-                                                <img src="img/icon-responsive.png" alt="icon">
-                                            </span>
-                                            <span class="tab__title font-size-21 font-weight-bold">Seamless experience anywhere</span>
-                                        </div>
-                                    </div>
-                                    <!-- end of tab three -->
-                                </div>
-                            </div>
-                            <!-- end of tabs -->
-                            <div class="main-container">
-                                <div class="swipe-tabs-container">
-                                    <div class="swipe-tab-content d-lg-flex justify-content-md-between align-items-center">
-                                        <picture class="features--tab__image">
-                                            <img src="img/features-1.png" alt="browser-image">
-                                        </picture>
-                                        <div class="tab-content">
-                                            <p>Personalization is a strategy allows businesses to customize what content a user sees based upon prior online behavior by including the user’s profile into the ranking strategy. Use a list of inputs about online behavior to influence the content that a specific user will see.</p>
-                                        </div>
-                                    </div>
-                                    <!-- end of first tab content -->
-
-                                    <div class="swipe-tab-content d-lg-flex justify-content-md-between align-items-center">
-                                        <picture class="features--tab__image">
-                                            <img src="img/features-2.png" alt="browser-image">
-                                        </picture>
-                                        <div class="tab-content">
-                                            <p>We provide the tools to build and customize a state-of-the-art site search and discovery experience that embraces your brand on every device.
-Easily bring features including autocomplete, filters and facets, Snippet & Highlighting, Multi-lingual, Did you mean, synonyms management, query suggestions and many more to your visitors, wherever they are, with unparalleled speed and relevance.</p>
-                                        </div>
-                                    </div>
-                                    <!-- end of second tab content -->
-
-                                    <div class="swipe-tab-content d-lg-flex justify-content-md-between align-items-center">
-                                        <picture class="features--tab__image">
-                                            <img src="img/features-3.png" alt="browser-image">
-                                        </picture>
-                                        <div class="tab-content">
-                                            <p>Delight your visitors with meaningful content as they engage with your brand. Proactively address their needs by integrating content info a single unified experience across your online properties, such as blog posts, FAQs, user-generated content and other relevant data.</p>
-                                        </div>
-                                    </div>
-                                    <!-- end of third tab content -->
-                                </div>
-                            </div>
-                            <!-- end of tab/ features items -->
-                        </div>
-                        <!-- end of features -->
-                    </div>
-                    <!-- end of col -->
-                </div>
-                <!-- end of row -->
+                <!-- end of section title -->
             </div>
-            <!-- end of container -->
+        </div>
+        <!-- end of row -->
+        <div class="row mb-30 reveal">
+            <div class="col-12 col-md-6 col-lg-4 mb-30 mb-lg-0">
+                <div class="features">
+                    <div class="d-flex mb-20">
+                        <span class="mr-20">
+                            <img src="img/family.png" alt="family">
+                        </span>
+                        <h5>Personal Approach</h5>
+                    </div>
+                    <p><span>Personalization is a strategy allows businesses to customize what content a user sees based upon prior online behavior by including the user’s profile into the ranking strategy. Use a list of inputs about online behavior to influence the content that a specific user will see.
+                    </p>
+                </div>
+            </div>
+            <!-- end of col -->
+            <div class="col-12 col-md-6 col-lg-4 mb-30 mb-lg-0">
+                <div class="features">
+                    <div class="d-flex mb-20">
+                        <span class="mr-20">
+                            <img src="img/b-meeting.png" alt="communication">
+                        </span>
+                        <h5>Create reach experience</h5>
+                    </div>
+                    <p><span>We provide the tools to build and customize a state-of-the-art site search and discovery experience that embraces your brand on every device.
+Easily bring features including autocomplete, filters and facets, Snippet & Highlighting, Multi-lingual, Did you mean, synonyms management, query suggestions and many more to your visitors, wherever they are, with unparalleled speed and relevance.
+                    </p>
+                </div>
+            </div>
+            <!-- end of col -->
+            <div class="col-12 col-md-6 col-lg-4 mb-30 mb-lg-0">
+                <div class="features">
+                    <div class="d-flex mb-20">
+                        <span class="mr-20">
+                            <img src="img/filter-organization.png" alt="management">
+                        </span>
+                        <h5>Seamless experience anywhere</h5>
+                    </div>
+                    <p><span>Delight your visitors with meaningful content as they engage with your brand. Proactively address their needs by integrating content info a single unified experience across your online properties, such as blog posts, FAQs, user-generated content and other relevant data.
+                    </p>
+                </div>
+            </div>
+            <!-- end of col -->
+          </div>
+          <!-- end of row -->
 
-        </section>
-        <!-- =========== End of Features ============ -->
+          <div class="row border-bottom-light space-bottom reveal">
+            <div class="col-12 col-md-6 col-lg-4 mb-30 mb-lg-0">
+                <div class="features">
+                    <div class="d-flex mb-20">
+                        <span class="mr-20">
+                            <img src="img/icon-settings.png" alt="arabic support">
+                        </span>
+                        <h5>Arabic Support</h5>
+                    </div>
+                    <p><span>We provide Custom Search supports indexing Arabic content and data.
+                    </p>
+                </div>
+            </div>
+            <!-- end of col -->
+
+            <div class="col-12 col-md-6 col-lg-4 mb-30 mb-lg-0">
+                <div class="features">
+                    <div class="d-flex mb-20">
+                        <span class="mr-20">
+                            <img src="img/secure.png" alt="secure">
+                        </span>
+                        <h5>Secure</h5>
+                    </div>
+                    <p><span>We are committed to delivering a highly secure and compliant environment for our customers.
+                    </p>
+                </div>
+            </div>
+            <!-- end of col -->
+
+            <div class="col-12 col-md-6 col-lg-4 mb-30 mb-lg-0">
+                <div class="features">
+                    <div class="d-flex mb-20">
+                        <span class="mr-20">
+                            <img src="img/icon-drag.png" alt="reliable">
+                        </span>
+                        <h5>Reliable</h5>
+                    </div>
+                    <p><span>We stand behind our service with an industry leading 99.999% SLA available. With geographical distribution data centers around the globe.
+                    </p>
+                </div>
+            </div>
+            <!-- end of col -->
+          </div>
+          <!-- end of row -->
+    </div>
+    <!-- end of container -->
+</section>
+<!-- =========== End of Features ============ -->
 
         <!-- =========== Start of Process ============ -->
         <section class="space-top bg-color-grey" id="howitworks">
@@ -408,103 +416,6 @@ Easily bring features including autocomplete, filters and facets, Snippet & High
             <!-- end of container -->
         </section>
         <!-- =========== End of Process ============ -->
-
-        <!-- =========== Start of Features ============ -->
-        <section class="space-top space-bottom" id="ourstrength">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-9 mx-auto">
-                        <div class="section-title reveal text-center mb-80 mb-sm-50">
-                            <h3 class="mb-3">Our Strength</h3>
-                        </div>
-                        <!-- end of section title -->
-                    </div>
-                    <!-- end of col -->
-                </div>
-                <!-- end of row -->
-                <div class="row">
-                    <div class="col-12">
-                        <div class="features features--slider reveal">
-                            <div class="sub-header">
-                                <div class="swipe-tabs">
-                                    <div class="swipe-tab text-right">
-                                        <div class="swipe-tab__inner d-inline-flex flex-column align-items-center text-center">
-                                            <span class="tab__icon">
-                                                <img src="img/icon-drag.png" alt="icon">
-                                            </span>
-                                            <span class="tab__title font-size-21 font-weight-bold">Arabic Support</span>
-                                        </div>
-                                    </div>
-                                    <!-- end of tab four -->
-
-                                    <div class="swipe-tab text-right">
-                                        <div class="swipe-tab__inner d-inline-flex flex-column align-items-center text-center">
-                                            <span class="tab__icon">
-                                                <img src="img/icon-settings.png" alt="icon">
-                                            </span>
-                                            <span class="tab__title font-size-21 font-weight-bold">Secure</span>
-                                        </div>
-                                    </div>
-                                    <!-- end of tab five -->
-
-                                    <div class="swipe-tab text-right">
-                                        <div class="swipe-tab__inner d-inline-flex flex-column align-items-center text-center">
-                                            <span class="tab__icon">
-                                                <img src="img/icon-responsive.png" alt="icon">
-                                            </span>
-                                            <span class="tab__title font-size-21 font-weight-bold">Reliable</span>
-                                        </div>
-                                    </div>
-                                    <!-- end of tab six -->
-                                </div>
-                            </div>
-                            <!-- end of tabs -->
-                            <div class="main-container">
-                                <div class="swipe-tabs-container">
-                                    <div class="swipe-tab-content d-lg-flex justify-content-md-between align-items-center">
-                                        <picture class="features--tab__image">
-                                            <img src="img/features-1.png" alt="browser-image">
-                                        </picture>
-                                        <div class="tab-content">
-                                            <p>We provide Custom Search supports indexing Arabic content and data.</p>
-                                        </div>
-                                    </div>
-                                    <!-- end of 4 tab content -->
-
-                                    <div class="swipe-tab-content d-lg-flex justify-content-md-between align-items-center">
-                                        <picture class="features--tab__image">
-                                            <img src="img/features-2.png" alt="browser-image">
-                                        </picture>
-                                        <div class="tab-content">
-                                            <p>We are committed to delivering a highly secure and compliant environment for our customers.</p>
-                                        </div>
-                                    </div>
-                                    <!-- end of 5 tab content -->
-
-                                    <div class="swipe-tab-content d-lg-flex justify-content-md-between align-items-center">
-                                        <picture class="features--tab__image">
-                                            <img src="img/features-3.png" alt="browser-image">
-                                        </picture>
-                                        <div class="tab-content">
-                                            <p>We stand behind our service with an industry leading 99.999% SLA available. With geographical distribution data centers around the globe.</p>
-                                        </div>
-                                    </div>
-                                    <!-- end of 6 tab content -->
-
-                                </div>
-                            </div>
-                            <!-- end of tab/ features items -->
-                        </div>
-                        <!-- end of features -->
-                    </div>
-                    <!-- end of col -->
-                </div>
-                <!-- end of row -->
-            </div>
-            <!-- end of container -->
-
-        </section>
-        <!-- =========== End of Features ============ -->
 
         <!-- =========== Start of Testimonial ============ -->
         <section class="bg-color-primary space position-relative">
@@ -688,9 +599,6 @@ Easily bring features including autocomplete, filters and facets, Snippet & High
 
         <!-- =========== Start of Footer ============ -->
         <footer class="footer footer--fixed">
-            <div class="background-holder background-holder--contain background-holder--left">
-                <img src="img/logo-overlay-big.png" alt="pattern" class="background-image-holder">
-            </div>
             <div class="space">
                 <div class="container">
                     <div class="row">
@@ -709,6 +617,7 @@ Easily bring features including autocomplete, filters and facets, Snippet & High
                         <!-- end of col -->
                         <div class="col-6 col-sm-4 col-lg-3 mb-20 mb-sm-0">
                             <div class="footer-widget">
+                                <h6 class="mb-50"></h6>
                                 <ul>
                                     <li>Email: info@jomaan.com</li>
                                 </ul>
