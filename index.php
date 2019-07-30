@@ -644,8 +644,8 @@ Easily bring features including autocomplete, filters and facets, Snippet & High
                                 <!-- end of language selector -->
                                 <ul class="social-lists d-flex mb-0">
                                     <li><a href="https://twitter.com/Jomaan_com"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://medium.com/@jomaan.com"><i class="fab fa-medium"></i></a></li>
-                                    <li><a href="https://www.rqiim.com/jomaan"><i class="fas fa-blog"></i></a></li>
+                                    <li><a href="https://medium.com/@jomaan.com"><i class="fa fa-medium"></i></a></li>
+                                    <li><a href="https://www.rqiim.com/jomaan"><i class="fas fa-globe-africa"></i></a></li>
                                 </ul>
                                 <!-- end of social list -->
                             </div>
