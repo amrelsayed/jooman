@@ -80,6 +80,9 @@
     <!-- favicon CSS -->
     <link rel="icon" type="image/png" sizes="32x32" href="img/logo.png">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet">
@@ -576,6 +579,7 @@ Easily bring features including autocomplete, filters and facets, Snippet & High
                                     <textarea class="form-control" id="message" name="message" rows="4" placeholder="Want to share any additional information?"></textarea>
                                 </div>
                             </div>
+                            <div class="g-recaptcha" data-sitekey="6LciXrEUAAAAAJo2Kz2FR2gTrQglvFisyx6OXrmr"></div>
                             <div class="form-row">
                                 <div class="form-group col-sm-12 text-center">
                                     <button type="submit" class="btn btn--bg-success btn-splash-hover btn-3d-hover"><span
