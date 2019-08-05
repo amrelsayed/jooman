@@ -44,8 +44,8 @@
                 $mail->isSMTP();                                            // Set mailer to use SMTP
                 $mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
                 $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-                $mail->Username   = 'jomaanjomaan8@gmail.com';                     // SMTP username
-                $mail->Password   = 'jomaan123';                               // SMTP password
+                $mail->Username   = 'jomaan.tech@gmail.com';                     // SMTP username
+                $mail->Password   = 'JoOj_2019#';                               // SMTP password
                 $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
                 $mail->Port       = 587;                                    // TCP port to connect to
 
@@ -645,7 +645,8 @@ Easily bring features including autocomplete, filters and facets, Snippet & High
                                 <ul class="social-lists d-flex mb-0">
                                     <li><a href="https://twitter.com/Jomaan_com"><i class="fa fa-twitter"></i></a></li>
                                     <li><a href="https://medium.com/@jomaan.com"><i class="fa fa-medium"></i></a></li>
-                                    <li><a href="https://www.rqiim.com/jomaan"><i class="fas fa-globe-africa"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/jomaan"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="https://www.rqiim.com/jomaan"><img style="height:18px;" src="img/raqiim.png"></a></li>
                                 </ul>
                                 <!-- end of social list -->
                             </div>
